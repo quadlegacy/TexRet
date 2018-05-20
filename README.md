@@ -1,2 +1,2 @@
-# vrchat
-things for vrchat
+# TexRet
+Texture retriever for blender
