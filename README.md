@@ -1,2 +1,2 @@
 # TexRet
-Texture retriever for blender
+Texture retriever for blender test
