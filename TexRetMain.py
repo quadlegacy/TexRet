@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Texture Retriever",
     "author": "Quaddy9779",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (2, 77, 0),
     "location": "View3D > Tool Shelf > TexRet",
     "description": "Copies all your textures and paste it to a target Directory",
@@ -54,7 +54,7 @@ def main(context):
     for ob in bpy.data.objects:
         for mat_slot in ob.material_slots:
             for mtex_slot in mat_slot.material.texture_slots:
-                if mtex_slot:
+                if mtex_slot and mtex_slot.use == 1:
                     if hasattr(mtex_slot.texture , 'image'):
                         if(mtex_slot.texture is not None):
                             CurImage = mtex_slot.texture.image.filepath
