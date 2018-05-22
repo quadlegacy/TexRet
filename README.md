@@ -12,6 +12,7 @@ Changelog:
 
 Requirements:
 1. Different Models with different textures. (Still can be used with a single model)
+1. It is better to run Blender as Admin (Win8 and Win10)
 
 Credits:
 * Crantisz (Really helped me alot)
