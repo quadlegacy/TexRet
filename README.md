@@ -19,6 +19,6 @@ Credits:
 
 
 If you have suggestions or better improvement for the script.
-Dm me at discord (Quaddy#9779)
+Dm me at discord (Quaddy#6969)
 
-Happy Modeling! ~Quaddy
+Happy Sculpting! ~Quaddy
